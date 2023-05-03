@@ -1,13 +1,43 @@
 version: "2.0"
 nlu:
-- intent: affirm
+- intent: greet
   examples: |
-    - yes
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
 - intent: goodbye
   examples: |
     - bye
-- intent: greet
+    - goodbye
+    - have a nice day
+    - see you later
+- intent: affirm
   examples: |
-    - Hey! How are you?
-    - Hi
-    - Hello
+    - yes
+    - of course
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - never
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - so good
+- intent: mood_unhappy
+  examples: |
+    - I am sad
+    - sad
+    - not good
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
